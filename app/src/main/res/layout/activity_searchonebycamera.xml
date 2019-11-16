@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:package="com.example.myapplication"
+    tools:context=".SearchOneByCamera">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <myapp.ui.LoginButton
+            android:id="@+id/searchByCameraBtn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="拍照搜索"
+            >
+        </myapp.ui.LoginButton>
+        <myapp.ui.LoginButton
+            android:id="@+id/searchByImageBtn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="选择照片搜索"
+            >
+        </myapp.ui.LoginButton>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_searchInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <myapp.ui.MyImageView2
+        android:id="@+id/miv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </myapp.ui.MyImageView2>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="open">1</string>
+    <string name="close">0</string>
+</resources>

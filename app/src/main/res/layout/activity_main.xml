@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:package="com.example.myapplication"
+    tools:context=".MainActivity"
+    android:transitionName="主界面"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    >
+    <myapp.ui.LoginButton
+        android:id="@+id/loginBtn"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text="人脸注册"
+        >
+    </myapp.ui.LoginButton>
+    <myapp.ui.LoginButton
+        android:id="@+id/detectBtn"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:text="人脸检测"
+        android:layout_gravity="center_horizontal"
+        >
+    </myapp.ui.LoginButton>
+    <myapp.ui.LoginButton
+        android:id="@+id/compareBtn"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:text="人脸对比"
+        android:layout_gravity="center_horizontal">
+    </myapp.ui.LoginButton>
+    <myapp.ui.LoginButton
+        android:id="@+id/searchBtn"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:text="人脸搜索"
+        android:layout_gravity="center_horizontal">
+    </myapp.ui.LoginButton>
+
+</LinearLayout>
